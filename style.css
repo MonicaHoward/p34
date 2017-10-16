@@ -1,0 +1,90 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background: #688E26;
+}
+nav {
+  background: #B7FC41;
+  border-bottom: 1px dotted #D2FF28;
+  overflow: auto;
+}
+nav img {
+  margin: 2%;
+  width: 20%;
+}
+/*nav h1 {
+  float: left;
+  margin: 2%;
+}*/
+input {
+  background-color: #FAFAFA;
+  border: none;
+  float: right;
+  height: 30px;
+  width: 200px;
+  margin: 2% 5% 2% auto;
+  padding-left: 2%;
+}
+.sidebar {
+  float: left;
+  margin: 2%;
+  clear: both;
+  width: 7%;
+}
+.actions {
+  background-color: rgb(54, 53, 55);
+  border-bottom: 2px solid #688E26;
+  height: 100px;
+  width: 100px;
+}
+.actions img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 20%;
+  width: 50px;
+}
+.actions p {
+  color: #fafafa;
+  font-family: sans-serif;
+  margin: 0 auto;
+  text-align: center;
+}
+.camera p{
+  color: #FFE000;
+}
+.audio p {
+  color: #682D63;
+}
+.video p {
+  color: #0D98F0;
+}
+.main {
+  float: left;
+  margin: 2%;
+  height: 100vh;
+  width: 84%;
+}
+.secondary-nav {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+.secondary-nav span {
+  margin: 5%;
+
+}
+.content-container {
+  width: 27%;
+}
+.content {
+  /*border: 1px solid black;*/
+  position: absolute;
+  width: 27%;
+}
+.content:nth-child(2n+0) {
+  background-color: #fafafa;
+}
+.content:nth-child(2n+1) {
+  background-color: #f1f1f1;
+}
